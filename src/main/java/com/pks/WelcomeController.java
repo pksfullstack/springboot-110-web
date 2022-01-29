@@ -12,7 +12,7 @@ public class WelcomeController {
 	// docker - http://localhost:8089/hello
 	@GetMapping("/hello")
 	public String showWelcomePage(ModelMap model) {
-		model.put("name", "PKS !");
+		model.put("name", "PKS !!");
 		return "welcome";
 	}
 
